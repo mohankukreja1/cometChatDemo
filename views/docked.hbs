@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- USER MANAGEMENT CODE -->
+
+<!-- Refer to User Management guide for this code -->
+<h1>This is docked view of comet chat</h1>
+<h2>go to /embedded.html for embedded view </h2>
+<script>
+    var chat_name = 'Ankur shukla';
+    var chat_id = '5af9879ca4cb8a1fe8c0b3de';
+    var chat_friends ='59f865d17da4ca49ee36581d,5b30d47f05ae04452ad8f902,5b30d40b05ae04452ad8f901,5b30bc0005ae04452ad8f8f7,5b30a64605ae04452ad8f8d7,5b309b7505ae04452ad8f8d0,5b306d9005ae04452ad8f8b7,5b2fc03105ae04452ad8f8a1,5b2fbd2805ae04452ad8f89e';
+</script>
+<!-- LAUNCH COMETCHAT CODE -->
+<script type="text/javascript">
+    var chat_appid = '51058';
+
+    (function() {
+        var css = document.createElement('link'); css.rel = 'stylesheet'; css.type = 'text/css'; css.href = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.css';
+        document.getElementsByTagName("head")[0].appendChild(css);
+        var js = document.createElement('script'); js.type = 'text/javascript'; js.src = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
+    })();
+</script>
+</body>
+</html>
